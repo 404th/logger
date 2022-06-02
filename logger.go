@@ -11,6 +11,6 @@ func LogInfo(str string) {
 }
 
 func LogError(str string) {
-	fmt.Errorf("ERROR! %s\n", str)
+	fmt.Printf("ERROR! %s\n", str)
 }
 
